@@ -1,6 +1,6 @@
 # Tables de multiplication
 
-à destination d'étudiants en apprentissage Vue.js
+À destination d'étudiants en apprentissage Vue.js
 
 ## Project setup
 ```
@@ -19,4 +19,4 @@ npm run build
 
 ### Les instructions du TP  
 
-https://sio-melun.github.io/vuejs/
+=> https://sio-melun.github.io/vuejs/
