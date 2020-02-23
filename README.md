@@ -1,4 +1,6 @@
-# hello-world
+# Tables de multiplication
+
+à destination d'étudiants en apprentissage Vue.js
 
 ## Project setup
 ```
@@ -15,15 +17,6 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
+### Les instructions du TP  
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://sio-melun.github.io/vuejs/

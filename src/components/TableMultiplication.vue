@@ -1,10 +1,9 @@
 <template>
   <div>
-    <h3>Table de {{nvalue}}</h3>
+    <h3>Table de 3</h3>
     <table class="table-multiplication" >
       <tbody>
-         <TableRow v-for="v in (1, 10)" v-bind:key="v"
-                   v-bind:j="nvalue" v-bind:i="v"/>
+         <TableRow v-bind:j="3" v-bind:i="1"/>
       </tbody>
     </table>
     <br/>
@@ -16,29 +15,9 @@
 
   export default {
     name: "TableMultiplication",
-    props: {
-      n: {
-        type: Number,
-        default: 5
-      }
-    },
     components: {
       TableRow
     },
-    computed: {
-      nvalue: function () {
-        // eslint-disable-next-line no-console
-        console.log("computed...");
-        // eslint-disable-next-line no-console
-        console.log(
-          "this.n = >" +
-          this.n +
-          "<  :  isNaN :" +
-          isNaN(this.n));
-
-        return  this.n;
-      }
-    }
   }
 </script>
 

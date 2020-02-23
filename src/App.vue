@@ -3,27 +3,15 @@
     <img alt="Vue logo" src="./assets/logo.png" width="100" height="100">
     <nav>
       <router-link to="/">&nbsp;Home |</router-link>
-      <router-link to="/tables/10">&nbsp;Tables</router-link>
+      <router-link to="/tables">&nbsp;Les tables</router-link>
     </nav>
     <router-view />
   </div>
 </template>
 
 <script>
-  // import TableMultiplication from "./components/TableMultiplication.vue";
-  // import TablesTableMultiplication from "./views/TablesTableMultiplication.vue";
-
   export default {
-    name: "app",
-    data: function () {
-      return {
-        n: 7
-      };
-    },
-    components: {
-     // TableMultiplication,
-      // TablesTableMultiplication
-    }
+    name: "app"
   };
 </script>
 
