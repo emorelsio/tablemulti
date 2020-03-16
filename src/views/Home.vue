@@ -17,7 +17,7 @@
     name: "home",
     data: function () {
       return {
-        n: 7
+        n: 0
       };
     },
     components: {

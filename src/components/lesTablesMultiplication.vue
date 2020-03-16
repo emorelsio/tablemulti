@@ -1,10 +1,9 @@
 <template>
   <div>
-    <h3>Table de {{ n }}</h3>
     <table class="table-multiplication" >
       <tbody>
         <div v-for="k in 10" v-bind:key="k">
-         <TableRow v-bind:j="k" v-bind:i="n"/>
+         <table-multiplication v-bind:j="n" v-bind:i="k"/>
          </div>
       </tbody>
     </table>
@@ -13,14 +12,14 @@
 </template>
 
 <script>
-  import TableRow from "./TableRow.vue";
+  import TableMultiplication from "./TableMultiplication.vue";
 
   export default {
     name: "TableMultiplication",
     props: {n: Number,
       },
     components: {
-      TableRow
+      TableMultiplication,
       
     },
   }
