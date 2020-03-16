@@ -1,7 +1,9 @@
 <template>
   <div>
     <h2>Les tables de multiplications</h2>
-      <div v-for="k in 10" v-bind:key="k">
+    <button v-on:click="counter= 10">10 tables de multiplications</button>
+    <button v-on:click="counter= 13">13 tables de multiplications</button>
+      <div v-for="k in counter" v-bind:key="k">
         <les-tables-multiplication v-bind:n="k"/>
       </div>
       <hr/>
@@ -15,7 +17,8 @@
     name: "home",
     data: function () {
       return {
-        n: 8
+        n: 8,
+        counter: 10
       };
     },
     name: "TableMultiplication",
